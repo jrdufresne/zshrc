@@ -6,3 +6,5 @@ rails_clean() {
 }
 
 alias rails-clean="rails_clean"
+
+alias rrd="bundle exec rails-response-dumper --fail-fast --order random"
